@@ -1,0 +1,38 @@
+name: ClanV3
+main: V3Clan.main
+version: 1.0
+author: V3lop5
+commands:
+  clan:
+    description: Clan CMD
+    alias: c
+  check:
+    description: Check CMD
+permission:
+  clan.ranking:
+    description: Clan Ranking Perm
+    default: true
+  clan.stats:
+    description: Clan Stats Perm
+    default: true
+  clan.topclan:
+    description: Clan TopClan Perm
+    default: true
+  clan.accept:
+    description: Clan Invite Accept Perm
+    default: true
+  clan.deny:
+    description: Clan Invite Deny Perm
+    default: true
+  clan.close:
+    description: Clan Close Perm
+    default: true
+  clan.invite:
+    description: Clan Invite Perm
+    default: true
+  clan.create:
+    description: Clan Create Perm
+    default: true
+  clan.kick:
+    description: Clan Kick Perm
+    default: true
